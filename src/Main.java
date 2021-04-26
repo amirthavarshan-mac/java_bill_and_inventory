@@ -1,9 +1,16 @@
-
-public class Main {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		databaseConnection test = new databaseConnection();
+public class main()
+{
+	public static void main(String arg[])
+	{
+		//Todo Auto-generated stub
+		databaseConnections test=new databaseConnections();
 	}
-
 }
+
+
+
+
+				
+
+				
+				
