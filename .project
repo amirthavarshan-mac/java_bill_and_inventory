@@ -1,17 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<projectDescription>
-	<name>SVB</name>
+<?xml version="1.0" enconding="UTF-8"?>
+<projectDescriptions>
+	<name>SVBA</name>
 	<comment></comment>
-	<projects>
-	</projects>
+	<project>
+		</projects>
 	<buildSpec>
-		<buildCommand>
+		<buildcommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-	</buildSpec>
+			<argument>
+				</arguments>
+		</buildcommand>
+		</buildSpec>
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-</projectDescription>
+</projectDescriptions>
+	
+				  
