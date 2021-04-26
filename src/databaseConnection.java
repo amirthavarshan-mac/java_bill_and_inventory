@@ -1,24 +1,34 @@
-import java.sql.Connection;
+import java.sql.connections;
 import java.sql.DriverManager;
-import java.sql.SQLException;
-
+import java.sql.SqlExceptions;
 public class databaseConnection {
-	
-	private static final String DRIVER= "org.apache.derby.jdbx.EmbeddedDriver";
-	private static final String JDBC_URL= "jdbc:derby:SVB;create=true";
-	
-	Connection conn;
-	
-	public databaseConnection() {
+	private static final String Driver1="org.apache.derby.jdbx.EmbeddedDriver";
+	private static final String JDBC_URL="jdbc:derby:SVB;create=true";
+	Connection connect;
+	public  databaseConnection()
+	{
 		try {
-			this.conn = DriverManager.getConnection(JDBC_URL);
-			if(this.conn != null) {
-				System.out.println("DOne");
+			this.conn=DriverManager.getConnection(JDBC_URL);
+			if(this.conn!=NULL)
+			{
+				System.out.println("Done");
 			}
-		}catch(SQLException e) {
-			
-			System.out.println("fail");
+			catch(Exception e)
+			{
+				System.out.println("Not working");
+			}
 		}
 	}
+
+
+
+
+"
+			
 	
-}
+
+	
+	
+		
+
+
